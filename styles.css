@@ -1,0 +1,13 @@
+body {
+background: #c26000;
+}
+
+
+div.item {
+    float: left;
+    margin: 2px;
+}
+
+div p {
+    text-align: center;
+}
