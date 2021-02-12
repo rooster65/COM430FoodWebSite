@@ -4,33 +4,90 @@
 <meta charset="utf-8">    
 <title>All Food</title>  
 <link rel="stylesheet" href="styles.css">
-
 </head>   
 <header>
-  h1 style="font-size:300%; text-align:center;">৩ All Food ৩</h1>
+  <h1 style="font-size:300%; text-align:center;"> All Food </h1>
   <p style="font-size:160%; text-align:center;">The Best Food Fast.</p>
-	
-</header>    
+</header>   
 
-<!--Below will use css code to position pictures and word-->
-<!--It will also use "input" to make the image clickable-->
-<div class="item">
-<input type="image" id="image" width="180" height="100" alt="Screen1"
+<body>
+<div class="menu-grid">
+
+  <!--Main Dishes-->
+  <div class="menu-item menu-main-1">
+  <input type="image" id="image" width="180" height="100" alt="Screen1"
        src="assets/fastfood.jpg">
        <p class="p">Burger $10</p>
        <button id="click">Add</button>
-       <button id="click">Remove</buttom>
-	
-</div> 
+       <button id="click">Remove</button>
+  </div> 
 
-<div class="item">
-<input type="image" id="image" width="180" heitght="100" alt="Screen2"
-		src="assets/greenfood.jpg">
-    <p class="p">Green $15</p>
+  <div class="menu-item menu-main-1">
+    <input type="image" id="image" width="180" height="100" alt="Screen1"
+         src="assets/meatballs.jpg">
+         <p class="p">Meat Balls $12</p>
+         <button id="click">Add</button>
+         <button id="click">Remove</button>
+    </div> 
+
+  <div class="menu-item menu-main-1">
+    <input type="image" id="image" width="180" height="100" alt="Screen1"
+         src="assets/salmonSpread.jpg">
+         <p class="p">Salmon $8</p>
+         <button id="click">Add</button>
+          <button id="click">Remove</button>
+  </div> 
+
+  <!--Sides-->
+  <div class="menu-item menu-side-1">
+  <input type="image" id="image" width="180" heitght="100" alt="Screen2"
+		src="assets/sideSPFries.jpg">
+    <p class="p">Sweet Potato Fries $3</p>
        <button id="click">Add</button>
-       <button id="click">Remove</buttom>
-</div>
+       <button id="click">Remove</button>
+  </div>
 
+  <div class="menu-item menu-side-1">
+    <input type="image" id="image" width="180" heitght="100" alt="Screen2"
+      src="assets/sideMac.jpg">
+      <p class="p">Mac & Cheese $3</p>
+         <button id="click">Add</button>
+         <button id="click">Remove</button>
+    </div>
+
+  <div class="menu-item menu-side-1">
+    <input type="image" id="image" width="180" heitght="100" alt="Screen2"
+       src="assets/sideSalad.jpg">
+      <p class="p">Salad $2</p>
+        <button id="click">Add</button>
+        <button id="click">Remove</button>
+  </div>
+
+  <!--Drinks-->
+  <div class="menu-item menu-drink-1">
+  <input type="image" id="image" width="180" heitght="100" alt="Screen2"
+      src="assets/sodaImage1.jpg">
+      <p class="p">Coke $2</p>
+         <button id="click">Add</button>
+         <button id="click">Remove</button>
+  </div>
+
+  <div class="menu-item menu-drink-1">
+    <input type="image" id="image" width="180" heitght="100" alt="Screen2"
+        src="assets/sodaImage2.jpg">
+        <p class="p">Pepsi $2</p>
+           <button id="click">Add</button>
+           <button id="click">Remove</button>
+    </div>
+
+    <div class="menu-item menu-drink-1">
+      <input type="image" id="image" width="180" heitght="100" alt="Screen2"
+          src="assets/sodaImage3.jpg">
+          <p class="p">Dr. Pepper $2</p>
+             <button id="click">Add</button>
+             <button id="click">Remove</button>
+      </div>
+</div>
 <div id="Price">Total</div>
 <script src="order.js"></script>
 </body>
