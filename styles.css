@@ -10,7 +10,7 @@
 
 div p {
     text-align: center;
-    width: 100px;
+    width: 140px;
     margin: 5px;
 }
 
@@ -18,7 +18,7 @@ button {
   display:inline-block;
   border: none;
   padding: 6px 12px
-  margin-bottom:0;
+  margin-bottom: 0;
   font-size: 14px
   font-weight:normal;
   text-align: center;
