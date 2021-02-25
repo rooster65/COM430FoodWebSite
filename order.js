@@ -86,118 +86,116 @@ rr.addEventListener("click", displayPrice92);
 //This function here is called to display each item price. 
 function displayPrice1(){
   a = 10;
-  var total = a+b+c+d+e+f+g+h+i;
-  document.getElementById("Item").innerText = "Burger";
+  var total = ((a+b+c+d+e+f+g+h+i)*1.1).toFixed(2);
   document.getElementById("Price").innerText = "Total" + " " + total;
 }
 
 function displayPrice12(){
   a = 0;
-  var total = a+b+c+d+e+f+g+h+i;
+  var total = ((a+b+c+d+e+f+g+h+i)*1.1).toFixed(2);
   document.getElementById("Price").innerText = "Total" + " " + total;
 }
 
 
 function displayPrice2(){
   b = 12;
-  var total = a+b+c+d+e+f+g+h+i;
-  document.getElementById("Item").innerText = "Meat Balls";
+  var total = ((a+b+c+d+e+f+g+h+i)*1.1).toFixed(2);
   document.getElementById("Price").innerText = "Total" + " " + total;
 }
 
 function displayPrice22(){
   b = 0;
-  var total = a+b+c+d+e+f+g+h+i;
+  var total = ((a+b+c+d+e+f+g+h+i)*1.1).toFixed(2);
   document.getElementById("Price").innerText = "Total" + " " + total;
 }
 
 
 function displayPrice3(){
   c = 8;
-  var total = a+b+c+d+e+f+g+h+i;
+  var total = ((a+b+c+d+e+f+g+h+i)*1.1).toFixed(2);
   document.getElementById("Price").innerText = "Total" + " " + total;
 }
 
 function displayPrice32(){
   c = 0;
-  var total = a+b+c+d+e+f+g+h+i;
+  var total = ((a+b+c+d+e+f+g+h+i)*1.1).toFixed(2);
   document.getElementById("Price").innerText = "Total" + " " + total;
 }
 
 
 function displayPrice4(){
   d = 3;
-  var total = a+b+c+d+e+f+g+h+i;
+  var total = ((a+b+c+d+e+f+g+h+i)*1.1).toFixed(2);
   document.getElementById("Price").innerText = "Total" + " " + total;
 }
 
 function displayPrice42(){
   d = 0;
-  var total = a+b+c+d+e+f+g+h+i;
+  var total = ((a+b+c+d+e+f+g+h+i)*1.1).toFixed(2);
   document.getElementById("Price").innerText = "Total" + " " + total;
 }
 
 
 function displayPrice5(){
   e = 3;
-  var total = a+b+c+d+e+f+g+h+i;
+  var total = ((a+b+c+d+e+f+g+h+i)*1.1).toFixed(2);
   document.getElementById("Price").innerText = "Total" + " " + total;
 }
 
 function displayPrice52(){
   e = 0;
-  var total = a+b+c+d+e+f+g+h+i;
+  var total = ((a+b+c+d+e+f+g+h+i)*1.1).toFixed(2);
   document.getElementById("Price").innerText = "Total" + " " + total;
 }
 
 
 function displayPrice6(){
   f = 2;
-  var total = a+b+c+d+e+f+g+h+i;
+  var total = ((a+b+c+d+e+f+g+h+i)*1.1).toFixed(2);
   document.getElementById("Price").innerText = "Total" + " " + total;
 }
 
 function displayPrice62(){
   f = 0;
-  var total = a+b+c+d+e+f+g+h+i;
+  var total = ((a+b+c+d+e+f+g+h+i)*1.1).toFixed(2);
   document.getElementById("Price").innerText = "Total" + " " + total;
 }
 
 
 function displayPrice7(){
   g = 2;
-  var total = a+b+c+d+e+f+g+h+i;
+  var total = ((a+b+c+d+e+f+g+h+i)*1.1).toFixed(2);
   document.getElementById("Price").innerText = "Total" + " " + total;
 }
 
 function displayPrice72(){
   g = 0;
-  var total = a+b+c+d+e+f+g+h+i;
+  var total = ((a+b+c+d+e+f+g+h+i)*1.1).toFixed(2);
   document.getElementById("Price").innerText = "Total" + " " + total;
 }
 
 
 function displayPrice8(){
   h = 2;
-  var total = a+b+c+d+e+f+g+h+i;
+  var total = ((a+b+c+d+e+f+g+h+i)*1.1).toFixed(2);
   document.getElementById("Price").innerText = "Total" + " " + total;
 }
 
 function displayPrice82(){
   h = 0;
-  var total = a+b+c+d+e+f+g+h+i;
+  var total = ((a+b+c+d+e+f+g+h+i)*1.1).toFixed(2);
   document.getElementById("Price").innerText = "Total" + " " + total;
 }
 
 
 function displayPrice9(){
-   i = 8;
-  var total = a+b+c+d+e+f+g+h+i;
+  i = 8;
+  var total = ((a+b+c+d+e+f+g+h+i)*1.1).toFixed(2);
   document.getElementById("Price").innerText = "Total" + " " + total;
 }
 
 function displayPrice92(){
   i = 0;
-  var total = a+b+c+d+e+f+g+h+i;
+  var total = ((a+b+c+d+e+f+g+h+i)*1.1).toFixed(2);
   document.getElementById("Price").innerText = "Total" + " " + total;
 }
