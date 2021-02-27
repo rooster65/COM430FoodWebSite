@@ -4,9 +4,14 @@
 document.getElementById("Price").style.position="absolute";
 document.getElementById("Price").style.left="1500px";
 
+
 document.getElementById("Item").style.position="absolute";
 document.getElementById("Item").style.top="150px";
 document.getElementById("Item").style.left="1500px";
+
+document.getElementById("Tax").style.position="absolute";
+document.getElementById("Tax").style.bottom="300px";
+document.getElementById("Tax").style.left="1500px";
 
 //This is to setup variables to store item price.
 var a = 0;
@@ -18,6 +23,7 @@ var f = 0;
 var g = 0;
 var h = 0;
 var i = 0;
+
 
 //This is to setup listeners to listen for add button click. 
 const z = document.getElementById("1");
@@ -87,12 +93,22 @@ rr.addEventListener("click", displayPrice92);
 function displayPrice1(){
   a = 10;
   var total = ((a+b+c+d+e+f+g+h+i)*1.1).toFixed(2);
+  var tax = (((a+b+c+d+e+f+g+h+i)*1.1-(a+b+c+d+e+f+g+h+i)).toFixed(2))
+
+  //FR1.9 Tax displayed automatically
+  document.getElementById("Tax").innerText = "Tax" + " " + tax;
+  //FR1.10 Total price displayed at the bottom
   document.getElementById("Price").innerText = "Total" + " " + total;
 }
 
 function displayPrice12(){
   a = 0;
   var total = ((a+b+c+d+e+f+g+h+i)*1.1).toFixed(2);
+  var tax = (((a+b+c+d+e+f+g+h+i)*1.1-(a+b+c+d+e+f+g+h+i)).toFixed(2))
+
+  //FR1.9 Tax displayed automatically
+  document.getElementById("Tax").innerText = "Tax" + " " + tax;
+  //FR1.10 Total price displayed at the bottom
   document.getElementById("Price").innerText = "Total" + " " + total;
 }
 
@@ -100,12 +116,22 @@ function displayPrice12(){
 function displayPrice2(){
   b = 12;
   var total = ((a+b+c+d+e+f+g+h+i)*1.1).toFixed(2);
+  var tax = (((a+b+c+d+e+f+g+h+i)*1.1-(a+b+c+d+e+f+g+h+i)).toFixed(2))
+
+  //FR1.9 Tax displayed automatically
+  document.getElementById("Tax").innerText = "Tax" + " " + tax;
+  //FR1.10 Total price displayed at the bottom
   document.getElementById("Price").innerText = "Total" + " " + total;
 }
 
 function displayPrice22(){
   b = 0;
   var total = ((a+b+c+d+e+f+g+h+i)*1.1).toFixed(2);
+  var tax = (((a+b+c+d+e+f+g+h+i)*1.1-(a+b+c+d+e+f+g+h+i)).toFixed(2))
+
+  //FR1.9 Tax displayed automatically
+  document.getElementById("Tax").innerText = "Tax" + " " + tax;
+  //FR1.10 Total price displayed at the bottom
   document.getElementById("Price").innerText = "Total" + " " + total;
 }
 
@@ -113,12 +139,22 @@ function displayPrice22(){
 function displayPrice3(){
   c = 8;
   var total = ((a+b+c+d+e+f+g+h+i)*1.1).toFixed(2);
+  var tax = (((a+b+c+d+e+f+g+h+i)*1.1-(a+b+c+d+e+f+g+h+i)).toFixed(2))
+
+  //FR1.9 Tax displayed automatically
+  document.getElementById("Tax").innerText = "Tax" + " " + tax;
+  //FR1.10 Total price displayed at the bottom
   document.getElementById("Price").innerText = "Total" + " " + total;
 }
 
 function displayPrice32(){
   c = 0;
   var total = ((a+b+c+d+e+f+g+h+i)*1.1).toFixed(2);
+  var tax = (((a+b+c+d+e+f+g+h+i)*1.1-(a+b+c+d+e+f+g+h+i)).toFixed(2))
+
+  //FR1.9 Tax displayed automatically
+  document.getElementById("Tax").innerText = "Tax" + " " + tax;
+  //FR1.10 Total price displayed at the bottom
   document.getElementById("Price").innerText = "Total" + " " + total;
 }
 
@@ -126,12 +162,22 @@ function displayPrice32(){
 function displayPrice4(){
   d = 3;
   var total = ((a+b+c+d+e+f+g+h+i)*1.1).toFixed(2);
+  var tax = (((a+b+c+d+e+f+g+h+i)*1.1-(a+b+c+d+e+f+g+h+i)).toFixed(2))
+
+  //FR1.9 Tax displayed automatically
+  document.getElementById("Tax").innerText = "Tax" + " " + tax;
+  //FR1.10 Total price displayed at the bottom
   document.getElementById("Price").innerText = "Total" + " " + total;
 }
 
 function displayPrice42(){
   d = 0;
   var total = ((a+b+c+d+e+f+g+h+i)*1.1).toFixed(2);
+  var tax = (((a+b+c+d+e+f+g+h+i)*1.1-(a+b+c+d+e+f+g+h+i)).toFixed(2))
+
+  //FR1.9 Tax displayed automatically
+  document.getElementById("Tax").innerText = "Tax" + " " + tax;
+  //FR1.10 Total price displayed at the bottom
   document.getElementById("Price").innerText = "Total" + " " + total;
 }
 
@@ -139,12 +185,22 @@ function displayPrice42(){
 function displayPrice5(){
   e = 3;
   var total = ((a+b+c+d+e+f+g+h+i)*1.1).toFixed(2);
+  var tax = (((a+b+c+d+e+f+g+h+i)*1.1-(a+b+c+d+e+f+g+h+i)).toFixed(2))
+
+  //FR1.9 Tax displayed automatically
+  document.getElementById("Tax").innerText = "Tax" + " " + tax;
+  //FR1.10 Total price displayed at the bottom
   document.getElementById("Price").innerText = "Total" + " " + total;
 }
 
 function displayPrice52(){
   e = 0;
   var total = ((a+b+c+d+e+f+g+h+i)*1.1).toFixed(2);
+  var tax = (((a+b+c+d+e+f+g+h+i)*1.1-(a+b+c+d+e+f+g+h+i)).toFixed(2))
+
+  //FR1.9 Tax displayed automatically
+  document.getElementById("Tax").innerText = "Tax" + " " + tax;
+  //FR1.10 Total price displayed at the bottom
   document.getElementById("Price").innerText = "Total" + " " + total;
 }
 
@@ -152,12 +208,22 @@ function displayPrice52(){
 function displayPrice6(){
   f = 2;
   var total = ((a+b+c+d+e+f+g+h+i)*1.1).toFixed(2);
+  var tax = (((a+b+c+d+e+f+g+h+i)*1.1-(a+b+c+d+e+f+g+h+i)).toFixed(2))
+
+  //FR1.9 Tax displayed automatically
+  document.getElementById("Tax").innerText = "Tax" + " " + tax;
+  //FR1.10 Total price displayed at the bottom
   document.getElementById("Price").innerText = "Total" + " " + total;
 }
 
 function displayPrice62(){
   f = 0;
   var total = ((a+b+c+d+e+f+g+h+i)*1.1).toFixed(2);
+  var tax = (((a+b+c+d+e+f+g+h+i)*1.1-(a+b+c+d+e+f+g+h+i)).toFixed(2))
+
+  //FR1.9 Tax displayed automatically
+  document.getElementById("Tax").innerText = "Tax" + " " + tax;
+  //FR1.10 Total price displayed at the bottom
   document.getElementById("Price").innerText = "Total" + " " + total;
 }
 
@@ -165,12 +231,22 @@ function displayPrice62(){
 function displayPrice7(){
   g = 2;
   var total = ((a+b+c+d+e+f+g+h+i)*1.1).toFixed(2);
+  var tax = (((a+b+c+d+e+f+g+h+i)*1.1-(a+b+c+d+e+f+g+h+i)).toFixed(2))
+
+  //FR1.9 Tax displayed automatically
+  document.getElementById("Tax").innerText = "Tax" + " " + tax;
+  //FR1.10 Total price displayed at the bottom
   document.getElementById("Price").innerText = "Total" + " " + total;
 }
 
 function displayPrice72(){
   g = 0;
   var total = ((a+b+c+d+e+f+g+h+i)*1.1).toFixed(2);
+  var tax = (((a+b+c+d+e+f+g+h+i)*1.1-(a+b+c+d+e+f+g+h+i)).toFixed(2))
+
+  //FR1.9 Tax displayed automatically
+  document.getElementById("Tax").innerText = "Tax" + " " + tax;
+  //FR1.10 Total price displayed at the bottom
   document.getElementById("Price").innerText = "Total" + " " + total;
 }
 
@@ -178,24 +254,44 @@ function displayPrice72(){
 function displayPrice8(){
   h = 2;
   var total = ((a+b+c+d+e+f+g+h+i)*1.1).toFixed(2);
+  var tax = (((a+b+c+d+e+f+g+h+i)*1.1-(a+b+c+d+e+f+g+h+i)).toFixed(2))
+
+  //FR1.9 Tax displayed automatically
+  document.getElementById("Tax").innerText = "Tax" + " " + tax;
+  //FR1.10 Total price displayed at the bottom
   document.getElementById("Price").innerText = "Total" + " " + total;
 }
 
 function displayPrice82(){
   h = 0;
   var total = ((a+b+c+d+e+f+g+h+i)*1.1).toFixed(2);
+  var tax = (((a+b+c+d+e+f+g+h+i)*1.1-(a+b+c+d+e+f+g+h+i)).toFixed(2))
+
+  //FR1.9 Tax displayed automatically
+  document.getElementById("Tax").innerText = "Tax" + " " + tax;
+  //FR1.10 Total price displayed at the bottom
   document.getElementById("Price").innerText = "Total" + " " + total;
 }
 
 
 function displayPrice9(){
-  i = 8;
+  i = 2;
   var total = ((a+b+c+d+e+f+g+h+i)*1.1).toFixed(2);
+  var tax = (((a+b+c+d+e+f+g+h+i)*1.1-(a+b+c+d+e+f+g+h+i)).toFixed(2))
+
+  //FR1.9 Tax displayed automatically
+  document.getElementById("Tax").innerText = "Tax" + " " + tax;
+  //FR1.10 Total price displayed at the bottom
   document.getElementById("Price").innerText = "Total" + " " + total;
 }
 
 function displayPrice92(){
   i = 0;
   var total = ((a+b+c+d+e+f+g+h+i)*1.1).toFixed(2);
+  var tax = (((a+b+c+d+e+f+g+h+i)*1.1-(a+b+c+d+e+f+g+h+i)).toFixed(2))
+
+  //FR1.9 Tax displayed automatically
+  document.getElementById("Tax").innerText = "Tax" + " " + tax;
+  //FR1.10 Total price displayed at the bottom
   document.getElementById("Price").innerText = "Total" + " " + total;
 }
